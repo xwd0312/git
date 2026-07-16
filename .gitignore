@@ -1,0 +1,11 @@
+# Go 构建与测试产物
+*.exe
+*.test
+*.out
+coverage.out
+
+# 编辑器与系统文件
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
