@@ -51,4 +51,11 @@ func main() {
 	case 2:
 		register()
 	}
+	var userMap = map[int]func(){
+		1: sayHello,
+	}
+	fun, ok := userMap[num]
+	if ok {
+		fun()
+	}
 }
